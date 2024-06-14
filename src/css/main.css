@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.hex {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px black;
+  font-size: 20px;
+}
+
+.rgb {
+  font-size: 18px;
+  display: flex;
+  margin-top: 5px;
+  width: 200px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
